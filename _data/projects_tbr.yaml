@@ -1,0 +1,48 @@
+- title: Vietnamese Text-to-Speech System
+  subtitle: A study on phoneme-based Vietnamese TTS system
+  group: featured
+  image: images/MIWAI19-TTS.png
+#  link: https://github.com/
+  description: This project focus on building a TTS system for Vietnamese. Our proposed Adaptive Alignment Tacotron (AAT) model, however, has achieved im- pressive results for a very small dataset of the Vietnamese language. By leveraging the nature of diagonal alignment between phoneme and acoustic sequences, we address the issue with long sequences and the pro- posed model can also be trained efficiently on the small dataset (5 hours of recording). The proposed model consists of the following components - a stacked convolutional encoder, a local diagonal attention module, a decoder with schedule teacher forcing to produce a coarse mel-spectrogram prediction, and a converter to transform the mel-spectrogram to linear-spectrogram. Experimental results show that the proposed model achieves faster convergence speed and higher stability than the baseline model and open a feasible approach for speech synthesis on languages with small dataset.
+#  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
+- title: Low-resource Bahnar Text-to-Speech
+  subtitle: A Linguistic-based Transfer Learning Approach
+  group: featured
+  image: images/NICS22-BahnarTTS.png
+#  link: https://github.com/
+  description: The Text-to-Speech (TTS) model often requires a large number of recorded utterances in standard quality for a high-fidelity synthesized speech. For low-resource languages, lacking data becomes a big challenge. In this work, we address this problem in the Bahnar Kriem language, a rare language used by Bahnar people living in Binh Dinh county, Vietnam. We propose the linguistic approach to process a poor-quality dataset of 720 utterances of Bahnar Kriem language, along with some preprocessing steps. We also analyze the Bahnar Kriem language and figure out a mixture between Bahnar and Vietnamese due to the historical development between the two races. Therefore, we propose the transfer learning approach to integrate the Vietnamese pronunciation into the Bahnar TTS synthesizer. The experiments show significant improvement in the performance of the TTS model for a low-resource language. Our model can also generate long Bahnar sentences with a short inference time. The subjective and objective evaluations suggest promising results and some potential improvements based on our approach. We also provide audio samples generated from our model1.
+#  repo: greenelab/lab-website-template
+  tags:
+    - resource
+
+- title: Light-weight Approach for Super Resolution
+  subtitle: F2SRGAN - A Lightweight Approach Boosting Perceptual Quality in Single Image Super-Resolution via a Revised Fast Fourier Convolution
+  image: images/IEEEAccess-F2SRGAN.png
+#  link: https://github.com/
+  description: With the successful development of deep learning, single image super-resolution (SISR) has advanced significantly in recent years. However, in practice, excessive convolutions limit super-resolution applications on platforms with limited resources like mobile devices or embedded systems. Besides, existing lightweight models have a problem with small receptive fields and only consider local features for the reconstruction. Previous models try to stack more convolutions layers to address this problem, but this prolongs the execution time due to increasing the number of parameters. Therefore, this paper proposes a novel approach named F2SRGAN using a revised Fast Fourier Convolution to enlarge the receptive field, enabling this model to learn global features better, neither introducing too many parameters nor prolonging the model inference time. The experimental results show that our proposed F2SRGAN significantly improves perceptual image quality among the lightweight SISR methods while maintaining an acceptable inference time.
+#  repo: greenelab/lab-website-template
+  tags:
+    - resource
+    - publication
+
+- title: Monocular Depth Estimation
+  subtitle: Self-supervise and Beyond
+  image: images/photo.jpg
+#  link: https://github.com/
+  description: Self-supervised monocular depth estimation (MDE) has garnered considerable interest due to its promising performance, particularly in well-lit, daytime settings. In this work, we investigate several complementary strategies to advance the state of the art in MDE. We explored a meta-learning approach to train a model capable of rapid adaptation to novel environments. Also, we addressed the challenges posed by low-light conditions to improve performance in dark scenes. In addition, we employed multi-task learning to enhance the overall quality of the estimated depth maps.
+  #Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#  repo: greenelab/lab-website-template
+  tags:
+    - software
+
+#- title: Cool Web Server
+#  subtitle: a subtitle
+#  image: images/photo.jpg
+#  link: https://github.com/
+#  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#  repo: greenelab/lab-website-template
+#  tags:
+#    - software

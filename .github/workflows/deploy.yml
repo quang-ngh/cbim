@@ -1,0 +1,61 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [dev]
+  pull_request:
+    branches: [dev]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "yarn"
+
+      - name: Enable Yarn
+        run: corepack enable
+
+      - name: Set Yarn version
+        run: yarn set version 1.22.19
+
+      - name: Create Python virtual environment
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+
+      - name: Install Python dependencies
+        run: |
+          source venv/bin/activate
+          pip install -r scripts/citations/requirements.txt
+
+      - name: Run Python script
+        run: |
+          source venv/bin/activate
+          python ./scripts/citations/cite.py
+
+      - name: Install Node.js dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build Next.js app
+        run: yarn build
+
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
+          working-directory: ./

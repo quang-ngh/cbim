@@ -1,0 +1,159 @@
+- id: doi:10.1007/978-3-030-98015-3_10
+  image: https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-98015-3_10/MediaObjects/518004_1_En_10_Fig2_HTML.png?as=webp
+  tags: [paper]
+
+- id: doi:10.1007/978-3-030-97610-1_6
+  image: https://signofthefour.github.io/images/CalibStyelSpeech.png
+  tags: [paper]
+
+- id: doi:10.1109/NICS56915.2022.10013451
+  image: https://signofthefour.github.io/images/bahnar.png
+  tags: [paper]
+
+#- id: doi:10.1109/cvpr52729.2023.02146
+#  image: https://vinairesearch.github.io/CREPS/assets/teaser.png
+
+#- id: doi:10.1109/iccv51070.2023.00202
+#  image: https://vinairesearch.github.io/Anti-DreamBooth/Anti_DreamBooth_files/teaser_static.jpg
+
+#- id: doi:10.1109/CVPR52733.2024.00746
+#  image: https://github.com/VinAIResearch/SwiftBrush/raw/main/assets/teaser2-1.png
+
+#- id: doi:10.1007/978-3-031-73007-8_11
+#  image: https://vinairesearch.github.io/SwiftBrushV2/static/banner_v2.png
+
+- id: doi:10.7717/peerj-cs.686
+  image: https://dfzljdn9uc3pi.cloudfront.net/2021/cs-686/1/fig-2-2x.jpg
+  tags: [paper]
+
+- id: doi:10.7717/peerj-cs.1144
+  image: https://dfzljdn9uc3pi.cloudfront.net/2022/cs-1144/1/fig-3-2x.jpg
+  tags: [paper]
+
+- id: doi:10.3390/electronics12112544
+  image: https://www.mdpi.com/electronics/electronics-12-02544/article_deploy/html/images/electronics-12-02544-g001.png
+  tags: [paper]
+
+- id: doi:10.1007/978-3-031-36886-8_18
+  tags: [paper]
+
+- id: doi:10.1007/978-3-031-36886-8_19
+  tags: [paper]
+
+- id: doi:10.1007/978-3-031-46573-4_17
+  tags: [paper]
+
+- id: doi:10.1016/j.imavis.2023.104871
+  tags: [paper]
+
+- id: doi:10.1007/978-3-031-36886-8_20
+  tags: [paper]
+
+- id: doi:10.1007/978-3-031-46573-4_39
+  tags: [paper]
+
+- id: doi:10.1007/978-3-031-36886-8_20
+  tags: [paper]
+
+- id: doi:10.1007/978-3-031-36886-8_17
+  tags: [paper]
+
+- id: doi:10.1109/ACCESS.2023.3260159
+  image: https://ieeexplore.ieee.org/ielx7/6287639/10005208/10077589/graphical_abstract/access-gagraphic-3260159.jpg
+  tags: [paper]
+
+- id: doi:10.1007/978-3-030-88113-9_25
+  tags: [paper]
+
+- id: doi:10.1049/iet-ipr.2013.0719
+  tags: [paper]
+
+- id: doi:10.1109/TCSVT.2014.2334053
+  tags: [paper]
+
+- id: doi:10.5573/JSTS.2014.14.2.212
+  tags: [paper]
+
+- id: doi:10.1109/TVT.2013.2242910
+  tags: [paper]
+
+- id: doi:10.1049/iet-ipr.2012.0563
+  image: https://ietresearch.onlinelibrary.wiley.com/cms/asset/2f9c66ba-7293-4e91-bdd2-29dc3584e877/ipr2bf02427-fig-0006-m.jpg
+  tags: [paper]
+
+- id: doi:10.1109/TCSVT.2013.2254898
+  tags: [paper]
+
+- id: doi:10.1109/ISITIA63062.2024.10667820
+  tags: [paper]
+
+- id: doi:10.1109/RIVF60135.2023.10471862
+  tags: [paper]
+
+- id: doi:10.1109/RIVF60135.2023.10471769
+  tags: [paper]
+
+- id: doi:10.1109/NICS56915.2022.10013370
+  tags: [paper]
+
+- id: doi:10.1109/CACML55074.2022.00040
+  tags: [paper]
+
+- id: doi:10.5220/0010657700003061
+  tags: [paper]
+
+- id: doi:10.1109/NICS51282.2020.9335862
+  tags: [paper]
+
+- id: doi:10.1007/978-3-030-19063-7_31
+  tags: [paper]
+
+- id: doi:10.1007/978-3-030-19063-7_32
+  tags: [paper]
+
+- id: doi:10.1007/978-3-030-33709-4_7
+  tags: [paper]
+
+- id: doi:10.1109/ISCIT.2019.8905142
+  tags: [paper]
+
+- id: doi:10.1109/NICS.2018.8606828
+  tags: [paper]
+
+- id: doi:10.1109/FCV.2015.7103725
+  tags: [paper]
+
+- id: doi:10.1109/ICIP.2012.6467523
+  tags: [paper]
+
+- id: doi:10.1109/VETECS.2012.6239921
+  tags: [paper]
+
+- id: doi:10.1109/ICRA.2011.5979710
+  tags: [paper]
+
+- id: doi:10.1007/978-3-642-25367-6_7
+  tags: [paper]
+
+- id: doi:10.1109/FCCM.2010.14
+  tags: [paper]
+
+- id: doi:10.1109/IROS.2009.5354258
+  tags: [paper]
+
+- id: doi:10.1109/ROBIO.2009.4913170
+  tags: [paper]
+
+- id: doi:10.1109/ROBIO.2009.4913024
+  tags: [paper]
+
+- id: doi:10.1109/RIVF60135.2023.10471783
+
+- id: doi:10.1007/978-981-96-0692-4_28
+  tags: [paper]
+
+- id: doi:10.1007/978-981-96-0972-7_6
+  tags: [paper]
+
+- id: doi:10.1007/978-981-96-0963-5_3
+  tags: [paper]

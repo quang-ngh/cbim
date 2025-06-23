@@ -1,0 +1,128 @@
+[
+  {
+    "id": 6,
+    "personalPageUrl": "/",
+    "name": "Quan Dao",
+    "interest": "Diffusion Models, Generative Models",
+    "profileImage": "https://drive.google.com/open?id=1UGDEkES6CHbtDQGN7M54l2IMUWezzNMx",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 7,
+    "personalPageUrl": "/",
+    "name": "Di Liu",
+    "interest": "Computer Vision, Vision-language Models, LLMs, Computer Graphics",
+    "profileImage": "https://drive.google.com/open?id=1sbjlU4sNUw_qhK1PlGG3MqwGU6-pEOY0",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 8,
+    "personalPageUrl": "/",
+    "name": "Yang Zhou",
+    "interest": "MLLM, VLM, LLM",
+    "profileImage": "https://drive.google.com/open?id=1rdHm_TLEcD29ZcAQLWMaJcmgeVRnPA-y",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 9,
+    "personalPageUrl": "/",
+    "name": "Wenyi Mo",
+    "interest": "Diffusion Models, Generative Models, Multimodal, MLLM",
+    "profileImage": "https://drive.google.com/open?id=1K2mN0HRJhQDxhoztZ23krvGGTU5FUB4M",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 10,
+    "personalPageUrl": "/",
+    "name": "Song Wen",
+    "interest": "Generative Models, Diffusion Models",
+    "profileImage": "https://drive.google.com/open?id=1lC-akguqKqbdqfFu0F1j5VFjKwpWrKEj",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 11,
+    "personalPageUrl": "/",
+    "name": "Ligong Han",
+    "interest": "Diffusion Models, Generative Models, LLM",
+    "profileImage": "https://drive.google.com/open?id=1GEcORkuc-1U6QtEkhB9_OGdAoNiQ9XvF",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 12,
+    "personalPageUrl": "/",
+    "name": "Zhuowei Li",
+    "interest": "Multimodal, LLM, Continual Learning",
+    "profileImage": "https://drive.google.com/open?id=1JO71x6J-Ny-p1vi2oYoUomuzdB9zTez4",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 13,
+    "personalPageUrl": "/",
+    "name": "Yanting Yang",
+    "interest": "Embodied ai, LLM, Multimodal",
+    "profileImage": "https://drive.google.com/open?id=1OZi9oMJoGINEvOPoyNRMH2GFzw5REQJj",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 14,
+    "personalPageUrl": "/",
+    "name": "Shiyu Zhao",
+    "interest": "Multimodal LLM, Open Vocabulary Object Detection, Optical Flow Estimation",
+    "profileImage": "https://drive.google.com/open?id=11ocbT0EJ7qk8ygi3ZYFy6hbRFtVe8aFT",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 15,
+    "personalPageUrl": "/",
+    "name": "Can Jin",
+    "interest": "Reinforcement Learning, Efficiency",
+    "profileImage": "https://drive.google.com/open?id=1ynCPh2ZCK8HfIxjvAXCZU6kmpMNmu3Nj",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 16,
+    "personalPageUrl": "/",
+    "name": "Meng Ye",
+    "interest": "AI for healthcare",
+    "profileImage": "https://drive.google.com/open?id=193K2m-x2YTttDLb96zUV-CaU9nT4bcPb",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 17,
+    "personalPageUrl": "/",
+    "name": "Difei Gu",
+    "interest": "Multimodal Reasoning",
+    "profileImage": "https://drive.google.com/open?id=1d5lfSMcfVbf71t0vF67l6MyhkOtAr1aC",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 18,
+    "personalPageUrl": "/",
+    "name": "Zhanfu Yang",
+    "interest": "3D, LLM, Generative Models",
+    "profileImage": "https://drive.google.com/open?id=1-UPcvSErZ0BE5VBl4TqjWfJp-1OO9ehA",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "id": 19,
+    "personalPageUrl": "/",
+    "name": "Mingyu Zhao",
+    "interest": "Multimodal, LLM",
+    "profileImage": "https://drive.google.com/open?id=1OwzNCROa5kUdQJF58Py8dg_z66yyS176",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  }
+]

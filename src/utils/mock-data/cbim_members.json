@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Quan Dao",
+    "interest": "Diffusion Models, Generative Models",
+    "profileImage": "src/utils/mock-data/images/Quan_Dao.jpg"
+  },
+  {
+    "name": "Di Liu",
+    "interest": "Computer Vision, Vision-language Models, LLMs, Computer Graphics",
+    "profileImage": "src/utils/mock-data/images/Di_Liu.jpg"
+  },
+  {
+    "name": "Yang Zhou",
+    "interest": "MLLM, VLM, LLM",
+    "profileImage": "src/utils/mock-data/images/Yang_Zhou.jpg"
+  },
+  {
+    "name": "Wenyi Mo",
+    "interest": "Diffusion Models, Generative Models, Multimodal, MLLM",
+    "profileImage": "src/utils/mock-data/images/Wenyi_Mo.jpg"
+  },
+  {
+    "name": "Song Wen",
+    "interest": "Generative Models, Diffusion Models",
+    "profileImage": "src/utils/mock-data/images/Song_Wen.jpg"
+  },
+  {
+    "name": "Ligong Han",
+    "interest": "Diffusion Models, Generative Models, LLM",
+    "profileImage": "src/utils/mock-data/images/Ligong_Han.jpg"
+  },
+  {
+    "name": "Zhuowei Li",
+    "interest": "Multimodal, LLM, Continual Learning",
+    "profileImage": "src/utils/mock-data/images/Zhuowei_Li.jpg"
+  },
+  {
+    "name": "Yanting Yang",
+    "interest": "Embodied ai, LLM, Multimodal",
+    "profileImage": "src/utils/mock-data/images/Yanting_Yang.jpg"
+  },
+  {
+    "name": "Shiyu Zhao",
+    "interest": "Multimodal LLM, Open Vocabulary Object Detection, Optical Flow Estimation",
+    "profileImage": "src/utils/mock-data/images/Shiyu_Zhao.jpg"
+  },
+  {
+    "name": "Can Jin",
+    "interest": "Reinforcement Learning, Efficiency",
+    "profileImage": "src/utils/mock-data/images/Can_Jin.jpg"
+  },
+  {
+    "name": "Meng Ye",
+    "interest": "AI for healthcare",
+    "profileImage": "src/utils/mock-data/images/Meng_Ye.jpg"
+  },
+  {
+    "name": "Difei Gu",
+    "interest": "Multimodal Reasoning",
+    "profileImage": "src/utils/mock-data/images/Difei_Gu.jpg"
+  },
+  {
+    "name": "Zhanfu Yang",
+    "interest": "3D, LLM, Generative Models",
+    "profileImage": "src/utils/mock-data/images/Zhanfu_Yang.jpg"
+  },
+  {
+    "name": "Mingyu Zhao",
+    "interest": "Multimodal, LLM",
+    "profileImage": "src/utils/mock-data/images/Mingyu_Zhao.jpg"
+  }
+]

@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-pt-serif: var(--font-pt-serif);
+  --font-sr-sans-pro: var(--font-source-sans-pro);
+  --color-primary-red:#C03;
+  --color-primary-text:#000;
+  --color-secondary-text:#444444;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.profile-container {
+  cursor: pointer;
+}
+
+.profile-container .profile-image-group {
+  clip-path: circle(100px at 50% 35%);
+}
+
+.profile-container:hover .profile-image-group {
+  clip-path: circle(100% at 50% 35%);
+}
+
+.profile-container .pi-image-group{
+  clip-path: circle(160px at 50% 45%);
+}
+
+.profile-container:hover .pi-image-group {
+  clip-path: circle(100% at 50% 35%);
+}
