@@ -62,17 +62,10 @@ export default function ProfileCard({ person }: ProfileCardProps) {
           {/* Darken overlay */}
           <div
             className="w-full h-full absolute top-0 left-0 z-10 
-            opacity-100 duration-100 ease-in-out
-          bg-gradient-to-t from-[#003153]/90 via-[#003153]/10 to-transparent
-          "
-          >
-            <div
-              className="w-full h-full 
           opacity-100 transition-all duration-100 ease-in-out
           bg-[url('/images/shared/nnnoise.svg')] 
           "
-            ></div>
-          </div>
+          ></div>
 
           {/* Link to personal page */}
           {/* <div

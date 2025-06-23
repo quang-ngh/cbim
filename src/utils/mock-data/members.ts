@@ -59,10 +59,48 @@ export const mockPeople: Person[] = [
   // PhD Students
   // Import the JSON data
   {
+    "name": "Wenyi Mo",
+    "interest": "Diffusion Models, Generative Models, Multimodal, MLLM",
+    "profileImage": "/images/members/Wenyi_Mo.jpg",
+    "id": 6,
+    "personalPageUrl": "/",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "name": "Yanting Yang",
+    "interest": "Embodied AI, LLM, Multimodal",
+    "profileImage": "/images/members/Yanting_Yang.jpg",
+    "id": 7,
+    "personalPageUrl": "/",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+  },
+  {
+    "name": "Quyen Tran",
+    "interest": "Generative Models",
+    "profileImage": "/images/members/Quyen_Tran.jpg",
+    "id": 8,
+    "personalPageUrl": "/",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+
+  },
+  {
+    "name": "Quang Nguyen",
+    "interest": "Diffusion Models, Multimodal, Generative Models",
+    "profileImage": "/images/members/Quang_Nguyen.jpg",
+    "id": 9,
+    "personalPageUrl": "/",
+    "enrollYear": 2024,
+    "position": "PhD Students"
+
+  },
+  {
     "name": "Quan Dao",
     "interest": "Diffusion Models, Generative Models",
     "profileImage": "/images/members/Quan_Dao.jpg",
-    "id": 6,
+    "id": 10,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -71,7 +109,7 @@ export const mockPeople: Person[] = [
     "name": "Di Liu",
     "interest": "Computer Vision, Vision-language Models, LLMs, Computer Graphics",
     "profileImage": "/images/members/Di_Liu.jpg",
-    "id": 7,
+    "id": 11,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -80,25 +118,16 @@ export const mockPeople: Person[] = [
     "name": "Yang Zhou",
     "interest": "MLLM, VLM, LLM",
     "profileImage": "/images/members/Yang_Zhou.jpg",
-    "id": 8,
+    "id": 12,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
-  },
-  {
-    "name": "Wenyi Mo",
-    "interest": "Diffusion Models, Generative Models, Multimodal, MLLM",
-    "profileImage": "/images/members/Wenyi_Mo.jpg",
-    "id": 9,
-    "personalPageUrl": "/",
-    "enrollYear": 2024,
-    "position": "PhD Students"
-  },
+  }, 
   {
     "name": "Song Wen",
     "interest": "Generative Models, Diffusion Models",
     "profileImage": "/images/members/Song_Wen.jpg",
-    "id": 10,
+    "id": 13,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -107,7 +136,7 @@ export const mockPeople: Person[] = [
     "name": "Ligong Han",
     "interest": "Diffusion Models, Generative Models, LLM",
     "profileImage": "/images/members/Ligong_Han.jpg",
-    "id": 11,
+    "id": 14,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -116,16 +145,7 @@ export const mockPeople: Person[] = [
     "name": "Zhuowei Li",
     "interest": "Multimodal, LLM, Continual Learning",
     "profileImage": "/images/members/Zhuowei_Li.jpg",
-    "id": 12,
-    "personalPageUrl": "/",
-    "enrollYear": 2024,
-    "position": "PhD Students"
-  },
-  {
-    "name": "Yanting Yang",
-    "interest": "Embodied ai, LLM, Multimodal",
-    "profileImage": "/images/members/Yanting_Yang.jpg",
-    "id": 13,
+    "id": 15,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -134,7 +154,7 @@ export const mockPeople: Person[] = [
     "name": "Shiyu Zhao",
     "interest": "Multimodal LLM, Open Vocabulary Object Detection, Optical Flow Estimation",
     "profileImage": "/images/members/Shiyu_Zhao.jpg",
-    "id": 14,
+    "id": 16,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -143,7 +163,7 @@ export const mockPeople: Person[] = [
     "name": "Can Jin",
     "interest": "Reinforcement Learning, Efficiency",
     "profileImage": "/images/members/Can_Jin.jpg",
-    "id": 15,
+    "id": 17,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -152,7 +172,7 @@ export const mockPeople: Person[] = [
     "name": "Meng Ye",
     "interest": "AI for healthcare",
     "profileImage": "/images/members/Meng_Ye.jpg",
-    "id": 16,
+    "id": 18,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -161,7 +181,7 @@ export const mockPeople: Person[] = [
     "name": "Difei Gu",
     "interest": "Multimodal Reasoning",
     "profileImage": "/images/members/Difei_Gu.jpg",
-    "id": 17,
+    "id": 19,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -170,7 +190,7 @@ export const mockPeople: Person[] = [
     "name": "Zhanfu Yang",
     "interest": "3D, LLM, Generative Models",
     "profileImage": "/images/members/Zhanfu_Yang.jpg",
-    "id": 18,
+    "id": 20,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
@@ -179,7 +199,7 @@ export const mockPeople: Person[] = [
     "name": "Mingyu Zhao",
     "interest": "Multimodal, LLM",
     "profileImage": "/images/members/Mingyu_Zhao.jpg",
-    "id": 19,
+    "id": 21,
     "personalPageUrl": "/",
     "enrollYear": 2024,
     "position": "PhD Students"
