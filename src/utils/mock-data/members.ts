@@ -3,7 +3,7 @@ export interface Person {
   id: number;
   name: string;
   personalPageUrl: string;
-  position: 'Faculty' | 'PhD Students' | 'MS Students' | 'Alumni' ;
+  position: 'Faculty' | 'PhD Students' | 'MS Students' | 'Alumni';
   enrollYear: number;
   profileImage: string;
   interest: string;
@@ -20,7 +20,7 @@ export const mockPeople: Person[] = [
     "profileImage": 'https://deeplearn.irdta.eu/2022su/wp-content/uploads/sites/4/2021/10/Dimitris-N.-Metaxas.jpg',
     "interest": ''
   },
-  
+
   // {
   //   id: '2',
   //   name: 'Prof. Michael Rodriguez',
@@ -61,7 +61,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Quan Dao",
     "interest": "Diffusion Models, Generative Models",
-    "profileImage": "/utils/mock-data/images/Quan_Dao.jpg",
+    "profileImage": "/images/members/Quan_Dao.jpg",
     "id": 6,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -70,7 +70,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Di Liu",
     "interest": "Computer Vision, Vision-language Models, LLMs, Computer Graphics",
-    "profileImage": "/utils/mock-data/images/Di_Liu.jpg",
+    "profileImage": "/images/members/Di_Liu.jpg",
     "id": 7,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -79,7 +79,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Yang Zhou",
     "interest": "MLLM, VLM, LLM",
-    "profileImage": "/utils/mock-data/images/Yang_Zhou.jpg",
+    "profileImage": "/images/members/Yang_Zhou.jpg",
     "id": 8,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -88,7 +88,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Wenyi Mo",
     "interest": "Diffusion Models, Generative Models, Multimodal, MLLM",
-    "profileImage": "/utils/mock-data/images/Wenyi_Mo.jpg",
+    "profileImage": "/images/members/Wenyi_Mo.jpg",
     "id": 9,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -97,7 +97,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Song Wen",
     "interest": "Generative Models, Diffusion Models",
-    "profileImage": "/utils/mock-data/images/Song_Wen.jpg",
+    "profileImage": "/images/members/Song_Wen.jpg",
     "id": 10,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -106,7 +106,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Ligong Han",
     "interest": "Diffusion Models, Generative Models, LLM",
-    "profileImage": "/utils/mock-data/images/Ligong_Han.jpg",
+    "profileImage": "/images/members/Ligong_Han.jpg",
     "id": 11,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -115,7 +115,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Zhuowei Li",
     "interest": "Multimodal, LLM, Continual Learning",
-    "profileImage": "/utils/mock-data/images/Zhuowei_Li.jpg",
+    "profileImage": "/images/members/Zhuowei_Li.jpg",
     "id": 12,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -124,7 +124,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Yanting Yang",
     "interest": "Embodied ai, LLM, Multimodal",
-    "profileImage": "/utils/mock-data/images/Yanting_Yang.jpg",
+    "profileImage": "/images/members/Yanting_Yang.jpg",
     "id": 13,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -133,7 +133,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Shiyu Zhao",
     "interest": "Multimodal LLM, Open Vocabulary Object Detection, Optical Flow Estimation",
-    "profileImage": "/utils/mock-data/images/Shiyu_Zhao.jpg",
+    "profileImage": "/images/members/Shiyu_Zhao.jpg",
     "id": 14,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -142,7 +142,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Can Jin",
     "interest": "Reinforcement Learning, Efficiency",
-    "profileImage": "/utils/mock-data/images/Can_Jin.jpg",
+    "profileImage": "/images/members/Can_Jin.jpg",
     "id": 15,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -151,7 +151,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Meng Ye",
     "interest": "AI for healthcare",
-    "profileImage": "/utils/mock-data/images/Meng_Ye.jpg",
+    "profileImage": "/images/members/Meng_Ye.jpg",
     "id": 16,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -160,7 +160,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Difei Gu",
     "interest": "Multimodal Reasoning",
-    "profileImage": "/utils/mock-data/images/Difei_Gu.jpg",
+    "profileImage": "/images/members/Difei_Gu.jpg",
     "id": 17,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -169,7 +169,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Zhanfu Yang",
     "interest": "3D, LLM, Generative Models",
-    "profileImage": "/utils/mock-data/images/Zhanfu_Yang.jpg",
+    "profileImage": "/images/members/Zhanfu_Yang.jpg",
     "id": 18,
     "personalPageUrl": "/",
     "enrollYear": 2024,
@@ -178,7 +178,7 @@ export const mockPeople: Person[] = [
   {
     "name": "Mingyu Zhao",
     "interest": "Multimodal, LLM",
-    "profileImage": "/utils/mock-data/images/Mingyu_Zhao.jpg",
+    "profileImage": "/images/members/Mingyu_Zhao.jpg",
     "id": 19,
     "personalPageUrl": "/",
     "enrollYear": 2024,

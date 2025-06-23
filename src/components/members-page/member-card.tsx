@@ -23,23 +23,23 @@ interface ProfileCardProps {
 // Helper function to determine if the image is a URL or local path
 const getImageSrc = (imagePath: string) => {
   // Check if it's a URL (starts with http/https)
-  if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
+  if (imagePath.startsWith("http://") || imagePath.startsWith("https://")) {
     return imagePath;
   }
-  
+
   // Check if it's a Google Drive link
-  if (imagePath.includes('drive.google.com')) {
+  if (imagePath.includes("drive.google.com")) {
     return imagePath;
   }
-  
+
   // For local paths, remove 'src/utils/mock-data/' prefix if present and add leading slash
-  const cleanPath = imagePath.replace(/^src\/utils\/mock-data\//, '');
-  return cleanPath.startsWith('/') ? cleanPath : `/${cleanPath}`;
+  const cleanPath = imagePath.replace(/^src\/utils\/mock-data\//, "");
+  return cleanPath.startsWith("/") ? cleanPath : `/${cleanPath}`;
 };
 
 export default function ProfileCard({ person }: ProfileCardProps) {
   const imageSrc = getImageSrc(person.profileImage);
-  console.log('Image source:', imageSrc);
+  console.log("Image source:", imageSrc);
   return (
     <div
       className="hover:shadow-md transition-shadow duration-200 
@@ -55,29 +55,26 @@ export default function ProfileCard({ person }: ProfileCardProps) {
             fill
             className="object-cover
             transition-all duration-500 ease-in-out
-            profile-image-group "
+             "
           />
 
           {/* White circle decorator */}
-          <div
+          {/* <div
             className=" z-50 absolute top-[35%] left-1/2 -translate-y-1/2 -translate-x-1/2 
             group-hover:size-[220px] size-[400px] duration-300 ease-in-out 
             rounded-full bg-transparent border border-white"
-          ></div>
+          ></div> */}
 
           {/* Darken overlay */}
           <div
             className="w-full h-full absolute top-0 left-0 z-10 
-            group-hover:opacity-100 opacity-0 duration-100 ease-in-out
+            opacity-100  duration-100 ease-in-out
           bg-gradient-to-t from-[#003153]/90 via-[#003153]/10 to-transparent
-          
-
           "
           >
-            {/* Noise overlay */}
             <div
               className="w-full h-full 
-          group-hover:opacity-100 opacity-0 transition-all duration-100 ease-in-out
+          opacity-100 transition-all duration-100 ease-in-out
           bg-[url('/images/shared/nnnoise.svg')] 
           "
             ></div>
@@ -105,12 +102,10 @@ export default function ProfileCard({ person }: ProfileCardProps) {
             </Link>
           </div> */}
         </div>
-
         {/* Profile info */}
         <div
-          className="absolute bottom-2 sm:left-2 flex flex-col items-start justify-end z-[99] 
+          className="relative sm:left-2 flex flex-col items-start justify-end z-[99] 
         group-hover:scale-105 group-hover:bottom-4 group-hover:left-4 transition-all duration-300 ease-in-out
-        
         "
         >
           {/* Name */}
