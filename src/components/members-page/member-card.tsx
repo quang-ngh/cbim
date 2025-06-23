@@ -1,16 +1,14 @@
 import Image from "next/image";
 
 interface Person {
-  id: string;
+  id: number;
   name: string;
   personalPageUrl: string;
   position:
     | "Faculty"
     | "PhD Students"
-    | "MS/PhD Students"
     | "MS Students"
     | "Alumni"
-    | "Postdoctoral Research Associate";
   enrollYear: number;
   interest: string;
   profileImage: string;
@@ -49,7 +47,7 @@ export default function ProfileCard({ person }: ProfileCardProps) {
       {/* Main card */}
       <div className="flex flex-col items-center text-center z-10 overflow-hidden">
         {/* Profile image */}
-        <div className="relative w-[260px] h-[300px] cursor-pointer">
+        <div className="relative w-[220px] h-[260px] cursor-pointer">
           <Image
             src={person.profileImage}
             alt={`${person.name} profile picture`}

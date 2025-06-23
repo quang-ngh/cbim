@@ -302,9 +302,9 @@ export const mockPeople: Person[] = [
 export const groupPeopleByPosition = (people: Person[]) => {
   const positionOrder: Person['position'][] = [
     'Faculty',
-    'Postdoctoral Research Associate',
+    // 'Postdoctoral Research Associate',
     'PhD Students',
-    'MS/PhD Students',
+    // 'MS/PhD Students',
     'MS Students',
     'Alumni'
   ];
